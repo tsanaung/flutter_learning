@@ -8,7 +8,7 @@ This is my very first flutter project using VSCode. In this project, I learned c
   main.dart ထဲမှာ နမူနာကုဒ်တွေ ပါပါတယ်၊ main.dart ထဲက ကုဒ်တွေအားလုံးကိုဖျက်ပြီး အသစ်ပြန်ရေးပါမယ်။ </p> 
   
   <p>အရင်ဆုံး material.dart ကို import လုပ်ပါမယ်၊ flutter မှာ ပြုပြင်ထားတဲ့ material UI ကို သုံးပါတယ်၊ flutter project စတာနဲ့ UI အတွက် သူ့ build-in UI ဖြစ်တဲ့ material UI ကို import လုပ်ဖို့လိုအပ်ပါတယ် </p> 
-  <code>import 'package:flutter/material.dart';</code><br/>
+  <code>import 'package:flutter/material.dart';</code>
   
   <p>main method  ကိုရေးပါမယ်</p>
   <code>
