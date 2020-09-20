@@ -34,5 +34,18 @@ This is my very first flutter project using VSCode. In this project, I learned c
  <code> &nbsp; &nbsp; }</code><br/>
  <code>}</code><br/>
 
-
+ <p><b>main.dart</b>ထဲမှာ ရေးထားတဲ့ <b>MyApp()</b> နဲ့ <b>MyFlutterHome()</b> class နှစ်ခုရှိပါတယ်၊ MyApp() က rootပါ၊ MyApp() ထဲမှာ UI အတွက် ThemeData သာ ပါပါတယ်၊ HTML မှာဆိုရင်တော့ MyApp() က <head> tag နဲ့ ခပ်ဆင်ဆင်တူပါတယ် (တစ်ကယ်မတူပါ) MyApp() ထဲမှာ <i>Material UI သုံးမယ်၊ Theme အရောင်က purple သုံးမယ်၊ UI မှာ ထုတ်ပြမယ့်ဟာက MyFlutterHome() ပါ</i> ဆိုတာလေးပဲ ရေးထည့်ထားပါတယ်။</p>
+ 
+ <code>class MyApp extends StatelessWidget { </code><br/>
+ <code>&nbsp; @override </code><br/>
+ <code>&nbsp; Widget build(BuildContext context) { </code><br/>
+ <code>&nbsp; &nbsp; return MaterialApp( </code><br/>
+ <code>&nbsp; &nbsp; &nbsp; title: "Hello Flutter!", </code><br/>
+ <code>&nbsp; &nbsp; &nbsp; theme: ThemeData( </code><br/>
+ <code>&nbsp; &nbsp; &nbsp; &nbsp; primarySwatch: Colors.purple, </code><br/>
+ <code>&nbsp; &nbsp; &nbsp; ), </code><br/>
+ <code>&nbsp; &nbsp; &nbsp; home: MyFlutterHome(), </code><br/>
+ <code>&nbsp; &nbsp; ); </code><br/>
+ <code>&nbsp; } </code><br/>
+ <code>} // StatelessWidget </code><br/>
   
