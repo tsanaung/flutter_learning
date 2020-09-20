@@ -33,6 +33,8 @@ StatelessWidget နဲ့ StatefullWidget တွေအကြောင်း န�
  <code> &nbsp; &nbsp; Widget build(BuildContext context) {</code><br/>
  <code> &nbsp;  &nbsp; &nbsp;   // TODO: implement build</code><br/>
  <code> &nbsp;  &nbsp; &nbsp;   throw UnimplementedError();</code><br/>
+ <code> &nbsp;  &nbsp; &nbsp;   // ဒါက class တစ်ခုဆောက်ထားတာပါ </code><br/>
+ <code> &nbsp;  &nbsp; &nbsp;   // ဒီထဲမှာ widget ကို ရေးပါမယ် </code><br/>
  <code> &nbsp; &nbsp; }</code><br/>
  <code>}</code><br/>
 
