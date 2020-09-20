@@ -16,27 +16,23 @@ This is my very first flutter project using VSCode. In this project, I learned c
  <code>import 'package:flutter/material.dart';</code>
  </p> 
   
- <p>
- main method  ကိုရေးပါမယ်<br/>
+ <p>main method  ကိုရေးပါမယ်</p>
+ 
  <code>void main() => runApp(MyApp());</code><br/>
-Main method မှာ MyApp() ကို application ရဲ့ root အနေနဲ့ run လိုက်တာပါ၊
-Flutter မှာ "Everything is widget" ဖြစ်တဲ့အတွက်ကြောင့် MyApp ကိုလည်း widget အဖြစ်ရေးရပါမယ်၊
-ဒီမှာတော့ MyApp() က root widget ပါ။ 
- </p>
+ 
+ <p>Main method မှာ MyApp() ကို application ရဲ့ root အနေနဲ့သုံးလိုက်တာပါ၊ Flutter မှာ "Everything is widget" ဖြစ်တဲ့အတွက်ကြောင့် MyApp ကိုလည်း widget အဖြစ်ရေးရပါမယ်၊
+ဒီမှာတော့ MyApp() က root widget ပါ။ လွယ်အောင် StatelessWidget တွေပဲသုံးသွားပါ့မယ်။ StatelessWidget နဲ့ StatefulWidget ကွာခြားပုံ၊ အသုံးပြုပုံတွေကို နောက်မှ ဆက်လေ့လာသွားပါမယ်။</p>
 
-<p>
-MyApp() အတွက် Stateless widget တစ်ခု ရေးပါမယ်၊
-StatelessWidget နဲ့ StatefullWidget တွေအကြောင်း နောက်ပိုင်းမှာလေ့လာသွားပါမယ်</p>
+ <p><b>ဒါကတော့ root Widget တစ်ခုရေးတဲ့ပုံစံပါ။ </b></p>
 
  <code>class MyApp extends StatelessWidget{</code><br/>
  <code> &nbsp; @override </code><br/>
  <code> &nbsp; &nbsp; Widget build(BuildContext context) {</code><br/>
- <code> &nbsp;  &nbsp; &nbsp;   // TODO: implement build</code><br/>
- <code> &nbsp;  &nbsp; &nbsp;   throw UnimplementedError();</code><br/>
  <code> &nbsp;  &nbsp; &nbsp;   // ဒါက class တစ်ခုဆောက်ထားတာပါ </code><br/>
+ <code> &nbsp;  &nbsp; &nbsp;   fool Bar();</code><br/>
  <code> &nbsp;  &nbsp; &nbsp;   // ဒီထဲမှာ widget ကို ရေးပါမယ် </code><br/>
  <code> &nbsp; &nbsp; }</code><br/>
  <code>}</code><br/>
 
-</p>
+
   
