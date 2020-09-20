@@ -26,9 +26,15 @@ Flutter မှာ "Everything is widget" ဖြစ်တဲ့အတွက်က
 
 <p>
 MyApp() အတွက် Stateless widget တစ်ခု ရေးပါမယ်၊
-StatelessWidget နဲ့ StatefullWidget တွေအကြောင်း နောက်ပိုင်းမှာလေ့လာသွားပါမယ်<br/>
-<code>class MyApp extends StatelessWidget { </code><br/>
-<code>//ဒီထဲမှာ StatefullWidget ထဲမှာ ရေးစရာရှိတာတွေ ရေးပါမယ် </code><br/>
-<code>};</code>
+StatelessWidget နဲ့ StatefullWidget တွေအကြောင်း နောက်ပိုင်းမှာလေ့လာသွားပါမယ်</p>
+
+ <code>class MyApp extends StatelessWidget{</code><br/>
+ <code> &nbsp; @override </code><br/>
+ <code> &nbsp; &nbsp; Widget build(BuildContext context) {</code><br/>
+ <code> &nbsp;  &nbsp; &nbsp;   // TODO: implement build</code><br/>
+ <code> &nbsp;  &nbsp; &nbsp;   throw UnimplementedError();</code><br/>
+ <code> &nbsp; &nbsp; }</code><br/>
+ <code>}</code><br/>
+
 </p>
   
