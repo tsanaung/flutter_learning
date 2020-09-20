@@ -23,4 +23,12 @@ Main method မှာ MyApp() ကို application ရဲ့ root အနေန�
 Flutter မှာ "Everything is widget" ဖြစ်တဲ့အတွက်ကြောင့် MyApp ကိုလည်း widget အဖြစ်ရေးရပါမယ်၊
 ဒီမှာတော့ MyApp() က root widget ပါ။ 
  </p>
+
+<p>
+MyApp() အတွက် Stateless widget တစ်ခု ရေးပါမယ်၊
+StatelessWidget နဲ့ StatefullWidget တွေအကြောင်း နောက်ပိုင်းမှာလေ့လာသွားပါမယ်<br/>
+<code>class MyApp extends StatelessWidget { </code><br/>
+<code>//ဒီထဲမှာ StatefullWidget ထဲမှာ ရေးစရာရှိတာတွေ ရေးပါမယ် </code><br/>
+<code>};</code>
+</p>
   
