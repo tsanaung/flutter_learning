@@ -34,7 +34,7 @@ This is my very first flutter project using VSCode. In this project, I learned c
  <code> &nbsp; &nbsp; }</code><br/>
  <code>}</code><br/>
 
- <p><b>main.dart</b>ထဲမှာ ရေးထားတဲ့ <b>MyApp()</b> နဲ့ <b>MyFlutterHome()</b> class နှစ်ခုရှိပါတယ်၊ MyApp() က rootပါ၊ MyApp() ထဲမှာ UI အတွက် ThemeData သာ ပါပါတယ်၊ HTML မှာဆိုရင်တော့ MyApp() က head tag နဲ့ ခပ်ဆင်ဆင်တူပါတယ် (တစ်ကယ်မတူပါ) MyApp() ထဲမှာ <i>Material UI သုံးမယ်၊ Theme အရောင်က purple သုံးမယ်၊ UI မှာ ထုတ်ပြမယ့်ဟာက MyFlutterHome() ပါ</i> ဆိုတာလေးပဲ ရေးထည့်ထားပါတယ်။</p>
+ <p><b>main.dart</b>ထဲမှာ ရေးထားတဲ့ <b>MyApp()</b> နဲ့ <b>MyFlutterHome()</b> class နှစ်ခုရှိပါတယ်၊ MyApp() က rootပါ၊ MyApp() ထဲမှာ UI အတွက် ThemeData သာ ပါပါတယ်၊ HTML မှာဆိုရင်တော့ MyApp() က head tag နဲ့ ခပ်ဆင်ဆင်တူပါတယ် (တစ်ကယ်မတူပါ) MyApp() ထဲမှာ <ul>Material UI သုံးမယ်၊ Theme အရောင်က purple သုံးမယ်၊ UI မှာ ထုတ်ပြမယ့်ဟာက MyFlutterHome() ပါ</ul> ဆိုတာလေးပဲ ရေးထည့်ထားပါတယ်။</p>
  
  <code>class MyApp extends StatelessWidget { </code><br/>
  <code>&nbsp; @override </code><br/>
