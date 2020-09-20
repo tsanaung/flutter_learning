@@ -28,7 +28,7 @@ This is my very first flutter project using VSCode. In this project, I learned c
  <code>class MyApp extends StatelessWidget{</code><br/>
  <code> &nbsp; @override </code><br/>
  <code> &nbsp; &nbsp; Widget build(BuildContext context) {</code><br/>
- <code> &nbsp;  &nbsp; &nbsp;   // ဒါက class တစ်ခုဆောက်ထားတာပါ </code><br/>
+ <code> &nbsp;  &nbsp; &nbsp;   // ဥပမာရေးထားတာပါ run ဖို့ မဟုတ်ပါဘူး </code><br/>
  <code> &nbsp;  &nbsp; &nbsp;   fool Bar();</code><br/>
  <code> &nbsp;  &nbsp; &nbsp;   // ဒီထဲမှာ widget ကို ရေးပါမယ် </code><br/>
  <code> &nbsp; &nbsp; }</code><br/>
