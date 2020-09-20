@@ -18,6 +18,9 @@ This is my very first flutter project using VSCode. In this project, I learned c
   
  <p>
  main method  ကိုရေးပါမယ်<br/>
- <code>void main() => runApp(MyApp());</code>
+ <code>void main() => runApp(MyApp());</code><br/>
+Main method မှာ MyApp() ကို application ရဲ့ root အနေနဲ့ run လိုက်တာပါ၊
+Flutter မှာ "Everything is widget" ဖြစ်တဲ့အတွက်ကြောင့် MyApp ကိုလည်း widget အဖြစ်ရေးရပါမယ်၊
+ဒီမှာတော့ MyApp() က root widget ပါ။ 
  </p>
   
