@@ -9,13 +9,14 @@ String _value = "HelloWorld";
 
 <p> Create a function, names as "<b>onClick</b>" </p>
 
-<code>  void _onClick() { </code>
-<code> &nbsp;    setState(() { </code>
-<code> &nbsp;&nbsp;      _value = "When you clicked the Test Button the function _onClick will run, print this String"; </code>
-<code> &nbsp;    }); </code>
-<code>  } </code>
+<code>  void _onClick() { </code> <br/>
+<code> &nbsp;    setState(() { </code> <br/>
+<code> &nbsp;&nbsp;      _value = "When you clicked the Test Button the function _onClick will run, print this String"; </code> <br/>
+<code> &nbsp;    }); </code> <br/>
+<code>  } </code> <br/>
 
 <p> Test it </p>
-<code> children: <Widget>[ </code>
-<code> &nbsp; new Text(_value), </code>
-<code> &nbsp; new RaisedButton(onPressed: _onClick, child: new Text("Test Button"),), </code>
+<code> children: <Widget>[ </code> <br/>
+<code> &nbsp; new Text(_value), </code> <br/>
+<code> &nbsp; new RaisedButton(onPressed: _onClick, child: new Text("Test Button"),), </code> <br/>
+<code> ], </code> <br/>
