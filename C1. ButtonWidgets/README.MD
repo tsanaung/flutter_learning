@@ -1,13 +1,14 @@
-<h1> 01.RaisedButton_main.dart </h1>
-<b> file name : main.dart </b>
+<h1> 01.RaisedButton_main.dart </h1><br/>
+
+<b> file name : main.dart </b> <br/>
 
 <p> Create String value </p>
 
 <code>
 String _value = "HelloWorld";
-</code>
+</code> <br/><br/>
 
-<p> Create a function, names as "<b>onClick</b>" </p>
+<p> Create a function, names as "<b>onClick</b>" </p> 
 
 <code>  void _onClick() { </code> <br/>
 <code> &nbsp;    setState(() { </code> <br/>
